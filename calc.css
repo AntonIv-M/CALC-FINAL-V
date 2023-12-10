@@ -1,0 +1,82 @@
+@import url(./fonts/fonts/digitalcyrillic1.ttf);
+body {
+    background: url(./PIC/Back.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 2rem;}
+.cal{
+    width: 300px;
+    height: 400px;
+    color: #f8f8f8;
+    border: 10px solid #030303;
+    border-radius: 40px;
+    background: #232020;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    padding: 20px;
+    box-shadow: 10px 10px 10px #feb600;
+}
+
+.display{font-family: 'digitalcyrillic1';
+    text-align: right;
+    width: 280px;
+    height: 70px;
+    background-color: #feb600;
+    margin: 10px 10px 20px 10px;
+    color: #030303;  
+    font-size: 50px;  
+}
+.btn {
+    width: 60px;
+    height: 60px;
+    background: #333;
+    border-radius: 70px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 10px 10px 10px #181817}
+
+.btn:hover {
+    background-color: aqua;
+    color: rgb(17, 17, 17);}
+.btn:active{
+    background-color: rgba(0, 255, 255, 0.248);
+    color: #feb600;}
+
+.btn.GR{background-color: #c8bbbb;}
+.btn.GR:hover{
+    background-color: aqua;
+    color: rgb(17, 17, 17);}
+.btn.GR:active {
+    background-color: rgba(0, 255, 255, 0.248);
+    color: #feb600;}
+
+.btn.OR {
+    background-color: #feb600;}
+.btn.OR:hover{
+    background-color: aqua;
+    color: rgb(17, 17, 17);}
+.btn.OR:active{background-color: rgba(0, 255, 255, 0.248);
+    color: #feb600;}
+
+.button{ 
+    display: grid;
+    grid-template-columns:[]80px[] 80px []80px []80px;
+    grid-template-rows: [] 80px [] 80px [] 80px [] 80px;}
+.display{
+    text-align: right;
+    width: 280px;
+    height: 70px;
+    background-color: #feb600;
+    margin: 10px 10px 20px 10px;
+    color: #030303;  
+    font-size: 50px; 
+    }
+.ROV{ }

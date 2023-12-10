@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="./calc.css">
+    <link rel="icon" href="./PIC/ICON.png">
+</head>
+<body>
+    <div class="cal">
+        <div class="screen">
+            <input type="text" id="display" class="display"readonly>
+            <div class="button">
+                <div onclick="annInputClear ('AC')" class="btn AC GR">AC</div>
+                <div onclick="annInput ('0')" class="btn NOL">0</div>
+                <div onclick="annInputRes ('=')" class="btn ROV GR">=</div>
+                <div onclick="annOper ('/')"class="btn / OR">/</div>
+
+                <div onclick="annInput ('7')" class="btn SEM">7</div>
+                <div onclick="annInput ('8')" class="btn VOS">8</div>
+                <div onclick="annInput ('9')"class="btn DEV">9</div>
+                <div onclick="annOper ('*')"class="btn X OR">X</div>
+
+                <div onclick="annInput ('4')" class="btn 4ET">4</div>
+                <div onclick="annInput ('5')"class="btn P9T">5</div>
+                <div onclick="annInput ('6')" class="btn SHT">6</div>
+                <div onclick="annOper ('-')" class="btn MIN OR">-</div>
+
+                <div onclick="annInput ('1')" class="btn one">1</div>
+                <div onclick="annInput ('2')" class="btn two">2</div>
+                <div onclick="annInput ('3')" class="btn three">3</div>
+                <div onclick="annOper ('+')" class="btn plus OR">+</div>
+
+                
+                
+                
+              
+            
+
+        </div>
+    </div>
+
+    <script src="calc.js" ></script>
+</body>
+</html>
